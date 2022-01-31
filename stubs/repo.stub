@@ -1,0 +1,9 @@
+<?php 
+
+namespace App\Respatory;
+
+{{interface}}
+
+class {{class}} {{interface_imp}} {
+
+}

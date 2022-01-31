@@ -1,0 +1,22 @@
+.adv .img-holder img {
+    width: 291px;
+    height: 240px;
+}
+
+.adv {
+    background: linear-gradient(
+        104deg
+        ,rgba(134,121,249,0.1),rgba(113,255,151,0.1));
+}
+
+.adv p {
+    width: 61%;
+}
+
+.adv button {
+    border: navajowhite;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background: var(--green-opic);
+    color: var(--white);
+}

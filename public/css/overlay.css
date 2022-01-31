@@ -1,0 +1,16 @@
+.overlay {
+    background-color: var(--shadow);
+}
+
+.overlay .model {
+    width: 100%;
+    height: fit-content;
+    background: var(--blue-shadow);
+    max-width: 564px;
+    border-radius: 3px;
+    border-top: 4px solid var(--green);
+}
+
+.overlay .btn {
+    border-radius: 0;
+}

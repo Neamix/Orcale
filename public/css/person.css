@@ -1,0 +1,30 @@
+.person-circle {
+    width: 50px;
+    min-width: 50px;
+    height: 50px;
+    background: var(--gray-dark);
+    border-radius: 50%;
+    color: var(--white);
+}
+.person-read {
+    overflow: hidden;
+    transition: all .3s linear;
+    max-height: 83px;
+}
+.person-read-vis-all {
+    max-height: 1000px;
+}
+
+
+.read-btn {
+    cursor:  pointer;
+}
+
+@media screen  and (max-width:992px) {
+    .person-container {
+        display: block !important;
+    }
+    .person-circle {
+        margin: 14px 10px;
+    }
+}
