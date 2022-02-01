@@ -26497,7 +26497,7 @@ var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
   "class": "text-center m-auto text-white fs-13"
-}, "© LegalZoom.com, Inc. All rights reserved.", -1
+}, "© Neamix All rights reserved.", -1
 /* HOISTED */
 );
 

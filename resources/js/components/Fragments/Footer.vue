@@ -8,7 +8,7 @@
                         fill="#00DC89" fill-rule="evenodd" />
                 </svg>
             </div>
-            <p class="text-center m-auto text-white fs-13">© LegalZoom.com, Inc. All rights reserved.</p>
+            <p class="text-center m-auto text-white fs-13">© Neamix All rights reserved.</p>
             <ul class="navbar-nav flex-row">
                 <li class="nav-item pl-2"><a href="http://www.dribble.com" target="_blank" class="links">
                         <ion-icon name="logo-dribbble"></ion-icon>
