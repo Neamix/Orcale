@@ -1,6 +1,6 @@
 <?php 
 
-namespace App\Result;
+namespace App;
 
 class Result {
     static function response(bool $message,array $payload)
