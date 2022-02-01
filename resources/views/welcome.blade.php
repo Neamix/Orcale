@@ -7,6 +7,7 @@
         <link href="{{ mix('css/app.css') }}" rel="stylesheet">
         <link href="{{ asset('css/styles.css') }}" rel="stylesheet">
         <link rel="icon" type="image/png" sizes="32x32" href="https://assets.reelgood.com/p/122804730ea4576d54970e60501759f0044ba394/icons/favicon-32x32.png">
+        <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests"> 
         <title>Reelgood</title>
         <!-- Fonts -->
     </head>
