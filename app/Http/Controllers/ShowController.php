@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use App\Models\show;
 use App\Respatory\showRepo;
-use App\Result\Result;
+use App\Result;
 use Illuminate\Http\Request;
 
 class ShowController extends Controller
