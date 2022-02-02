@@ -118,13 +118,14 @@ class showRepo implements showRepoInterface {
 
             $request = Http::get($request)->json();
 
-            if(str_contains($this->provider,'credits'))
-            {
-                $cast = (isset($request['credits']['cast'])) ? $request['credits']['cast'] : [];
-                $crew =  (isset($request['credits']['crew'])) ? $request['credits']['crew'] : [];
-                $collection = static::collected('merge',[$cast,$crew])->chunk(2)->toArray();
-                $request['credits']['cast'] = $collection;
-                $request['credits']['crew'] = [];
+            if($this->provider != null) {
+                if(str_contains($this->provider,'credits')) {
+                    $cast = (isset($request['credits']['cast'])) ? $request['credits']['cast'] : [];
+                    $crew =  (isset($request['credits']['crew'])) ? $request['credits']['crew'] : [];
+                    $collection = static::collected('merge',[$cast,$crew])->chunk(2)->toArray();
+                    $request['credits']['cast'] = $collection;
+                    $request['credits']['crew'] = [];
+                }
             }
 
             return $request;

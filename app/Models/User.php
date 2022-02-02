@@ -107,7 +107,7 @@ class User extends Authenticatable
         ];
         
         $forget = DB::table('password_resets')->insert($forgetData);
-
+        dd($this->email);
         Mail::to($this->email)
             ->queue(new forget($forgetData));
         

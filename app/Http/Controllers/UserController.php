@@ -41,7 +41,7 @@ class UserController extends Controller
     {
         $user = User::where('email',$request->email)->first();
 
-        if($user->count()) {
+        if($user) {
             return $user->forgetPassword('asdasd');
         } else {
             return Json::result(false,'We can\'t find this email in our database');
