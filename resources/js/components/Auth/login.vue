@@ -3,20 +3,6 @@
         <div class="container p-5">
             <h2 class="color-wh fs-22 fw-600">Let's sign you in</h2>
             <p class="color-sv fs-13">Welcome back we missed you hommie</p>
-            <div class="access mt-3">
-                <a href="/users/socialite/facebook" class="w-100">
-                    <button class="fb-btn social-btn d-flex align-items-center justify-content-center w-100"> 
-                        <i class="ri-facebook-circle-fill fs-17 pl-2"></i>
-                        <span class="d-block pl-4">Continue with Facebook</span>
-                    </button>
-                </a>
-                <a href="/users/socialite/google" class="w-100">
-                    <button class="go-btn social-btn d-flex align-items-center justify-content-center mt-2 w-100">
-                        <i class="ri-google-fill fs-17 pl-2"></i>
-                        <span class="d-block pl-4">Continue with Google</span>
-                    </button>
-                </a>
-            </div>
             <form class="login mt-4" @submit.prevent="loginUser()">
                 <div class="form-group">
                     <label for="email" class="fs-12 fw-600 color-wh">Email Address</label>

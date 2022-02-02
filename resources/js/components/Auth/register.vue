@@ -3,20 +3,6 @@
         <div class="container p-5">
             <h2 class="color-wh fs-22 fw-600">Create a new user</h2>
             <p class="color-sv fs-13">We are so happy that you will join us</p>
-            <div class="access mt-3">
-                <a href="/users/socialite/facebook">
-                    <button class="fb-btn social-btn d-flex align-items-center justify-content-center w-100">
-                        <i class="ri-facebook-circle-fill fs-17 pl-2"></i>
-                        <span class="d-block pl-4">Continue with Facebook</span>
-                    </button>
-                </a>
-                <a href="/users/socialite/google">
-                    <button class="go-btn social-btn d-flex align-items-center justify-content-center mt-2 w-100">
-                        <i class="ri-google-fill fs-17 pl-2"></i>
-                        <span class="d-block pl-4">Continue with Google</span>
-                    </button>
-                </a>
-            </div>
             <form class="login mt-4" @submit.prevent="registerUser()">
 
                 <div class="form-group">
