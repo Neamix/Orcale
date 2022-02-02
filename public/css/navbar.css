@@ -11,7 +11,7 @@ nav.scrolled {
     border-bottom: 4px solid var(--dark);
 }
 
-nav .navbar-brand img {
+.logo {
     width: 100px;
 }
 
